@@ -1,0 +1,78 @@
+div.backButton a, .optionButton a, .loadButton{
+    padding: 7px;
+    background-color: #2e6da4;
+    color: white;
+    margin: 7px;
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+div.backButton a:hover, .optionButton a:hover{
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    padding: 7px;
+    background-color: #d58512;
+    color: white;
+    margin: 7px;
+    border-radius: 7px;
+    width: auto;
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+}
+
+
+.paginate_button {
+    display: inline-block !important;
+    min-width: 1.5em !important;
+    padding: 5px !important;
+    margin-left: 2px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: white !important;
+    border-radius: 4px !important;
+    background: none !important;
+    background-color: #c6c6c6 !important;
+    border: none;
+}
+
+.paginate_button.current{
+    background-color: #2e6da4 !important;
+    color: white;
+}
+
+.paginate_button:hover {
+    cursor: hand !important;
+    background-color: #626262 !important;
+    color:white !important;
+}
+
+input[type="search"]{
+    -webkit-appearance: searchfield !important;
+    height: 25px;
+}
+
+.linkButton {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}

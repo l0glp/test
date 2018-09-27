@@ -1,0 +1,66 @@
+@import "all.css";
+@import "buttons.css";
+@import "base.css";
+ul {
+    list-style-type: none;
+    width: 23%;
+    margin: 20px auto;
+}
+ul li {
+    background-color: #2e6da4;
+    color: white;
+    margin: 5px;
+    border-radius: 7px;
+    max-width: 250px;
+    text-align: center;
+}
+
+ul li a.optionButton{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+ul li:hover{
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+}
+
+div.titleView{
+    font-size: 21px;
+    color: #626262;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+div.subtitleView{
+    font-size: 17px;
+    color: #626262;
+    font-weight: bold;
+}
+
+.fLeft {
+    float: left;
+    display:inline-block;
+}
+.fRight {
+    float: right;
+    display: inline-block;
+}
+.fClear {
+    clear:both;
+}
+
+.datatables_filter {
+    float: left;
+    text-align: left;
+}
+
+.datatables_filter input[type="search"]{
+    -webkit-appearance: searchfield !important;
+}

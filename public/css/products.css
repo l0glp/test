@@ -1,0 +1,40 @@
+@import "base.css";
+@import "buttons.css";
+div.products{
+    margin: 20px 10px;
+}
+div.products input[type=submit].disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+div.products table{
+    color: #626262;
+}
+
+div.products tbody{
+    color: #626262;
+}
+
+div.products form{
+    width: 352px;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+}
+
+div.products form .divFileInput{
+    border: 1px solid #c6c6c6;
+    padding: 10px;
+}
+
+div.load input[type="submit"] {
+    margin: 15px 0;
+    border: none;
+}
+
+div.load div.backButton{
+    margin: 2px auto;
+    width: 25%;
+}
+
+

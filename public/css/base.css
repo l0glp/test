@@ -1,0 +1,68 @@
+html {
+    background-color: white;
+    height: 100%;
+}
+body {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    font-size: 13px;
+    font-family:  Arial, Helvetica, sans-serif !important;
+    color: #626262 !important;
+    margin: 0;
+}
+body .body{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+body .title{
+    font-size: 21px;
+    text-align: center;
+}
+body .subtitle{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+footer, header{
+    background-color: #2e6da4;
+    height: 40px;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    width: 100%;
+    display: table;
+
+}
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    z-index: 100;
+}
+footer{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    z-index: 100;
+}
+header .titleContent{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+footer .titleContent {
+    text-align:center;
+    font-size: 12px;
+    display: table-cell;
+    vertical-align: middle;
+}
